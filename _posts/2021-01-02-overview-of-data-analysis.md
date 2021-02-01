@@ -52,6 +52,17 @@ c) Use technologies to discover relationships and trends that explain these anom
 ### Cognitive Analytics
 - `Answer the question`: What might happen if circumstances change and determine how you might handle these situations?
 
+<div class="thi-columns" markdown="1">
+- item 1
+- item 2
+- item 3
+- item 4
+- item 5
+- item 6
+</div>
+
+![](/images/powerbi/advanced_analytics.png){:.w-500 .no-border}
+
 <fieldset class="field-set" markdown="1">
 <legend class="leg-title">Title</legend>
 Content
