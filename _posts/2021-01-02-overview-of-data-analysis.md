@@ -7,8 +7,6 @@ tags: [PowerBI,DA-100]
 date: 2021-02-01
 ---
 
-{% assign img-url = '/images/powerbi' %}
-
 ## Overview of data analysis
 
 Data analysis is the process of identifying, cleaning, transforming, and modeling data to discover meaningful and useful information. The data is then crafted into a story through reports for analysis to support the critical decision-making process.
@@ -17,7 +15,7 @@ To analyze data, core components of analytics are divided into the following cat
 
 {% include toc.html %}
 
-![Advanced Analytics]({{img-url}}/advanced_analytics.png){:.img-full-80.pop}
+![](/images/powerbi/advanced_analytics.png){:.w-500 .no-border}
 
 ### Descriptive Analytics
 - `Answer the question`: What happenned?
@@ -51,15 +49,6 @@ c) Use technologies to discover relationships and trends that explain these anom
 
 ### Cognitive Analytics
 - `Answer the question`: What might happen if circumstances change and determine how you might handle these situations?
-
-<div class="thi-columns" markdown="1">
-- item 1
-- item 2
-- item 3
-- item 4
-- item 5
-- item 6
-</div>
 
 <fieldset class="field-set" markdown="1">
 <legend class="leg-title">Title</legend>
