@@ -7,28 +7,34 @@ date: 2021-02-01
 
 {% include toc.html %}
 
-## Business Analyst
-- Closer to the **business**
-- Is a specialist in **interpreting the data** that comes from visualization
-- Tools: Word, Excel, Power Point/MS Project
+## Prepare data
+- Input: raw data
+- Output: enriched, trusted and understandalbe
+- Clean dirty data 
+- What is dirty data?
+  + Duplicate data
+  + Incorrect data
+  + Missing data
+  + Identify outliers
+  + Inconsistent data
 
-## Data Analyst
-- Implement the **advanced analytics capabilities into reports and visualizations**
-- Profile, clean, and transform data
-- Design & build scalable & effective data models
-- Manage Power BI assets (reports, dashboards, workspace, and the underlying datasets, etc)
-- Work with Data Engineer and DB Admin
-Note: Data Analyst and Business Analyst could be the single person
+## Model
+- Determine how tables are related to each other
+- Define and create relationships between table
+- Model has a **direct effect on the PERFORMANCE**
+- Is an iterative process
 
-## Data Engineer
-- Set up data platform technologies (on-premises, in the cloud)
-- Manage and secure the flow of structured and unstructured data from multiples sources
-- Data can include relational db, non relational db, data streams, and file stores
-- Work with business stakeholder to identify & meet data requirements, and then design & implement solutions.
+## Visualize
+- Translate information into a visual context, such as a map or graph, to make data easier for the human brain to understand and pull insights from. 
+Note: - keep data small -> too much data can make detecting key point difficult
 
-## Data Scientist
+## Analyse
+- Understand and interpret the info that is displayed on the report
+- Use the analytical capabilities of PowerBI to find insights, identify patterns and trends, predict outcomes, and then communicate those insights in a way that everyone understand.
 
-## DB Admin
-- DB Admin manages the overall health of a db and the hardware that it resides on, manages the user access to the data.
+## Manage
+- Data assets (reports, dashboards, workspace, dataset, etc)
+- Grant right data assets to right peope
+- Management of PowerBI assets reduce the duplication of efforts and ensure security of the data.
 - Database (Microsoft Azure Services, MS SQL)
 
