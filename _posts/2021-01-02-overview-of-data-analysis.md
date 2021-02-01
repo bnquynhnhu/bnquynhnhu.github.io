@@ -9,6 +9,9 @@ date: 2021-02-01
 To analyze data, core components of analytics are divided into the following categories:
 
 {% include toc.html %}
+~~~ html
+<img src='advanced_analytics.png'>
+~~~
 
 ## Descriptive Analytics
 - `Answer the question`: What happended?
