@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Roles in Data
+title: "Roles in Data"
 categories: [DA-100]
 tags: [PowerBI,DA-100]
 date: 2021-02-01
@@ -26,6 +26,8 @@ Note: Data Analyst and Business Analyst could be the single person
 - Manage and secure the flow of structured and unstructured data from multiples sources
 - Data can include relational db, non relational db, data streams, and file stores
 - Work with business stakeholder to identify & meet data requirements, and then design & implement solutions.
+
+## Data Scientist
 
 ## DB Admin
 - DB Admin manages the overall health of a db and the hardware that it resides on, manages the user access to the data.
