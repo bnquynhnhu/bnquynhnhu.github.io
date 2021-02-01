@@ -10,11 +10,6 @@ To analyze data, core components of analytics are divided into the following cat
 
 {% include toc.html %}
 
-~~~ html
-<img src='/_posts/advanced_analytics.png'>
-~~~
-
-
 ## Descriptive Analytics
 - `Answer the question`: What happenned?
 - 90% of organizations use descriptive analytics
@@ -34,11 +29,11 @@ c) Use technologies to discover relationships and trends that explain these anom
 ## Predictive Analytics
 - `Answer the question`: What will happen in the future?
 - Steps to do:
-a) Define the goal
-b) Prepare the data
-c) Find insights and visualize
-d) Deploy machine learning 
-e) Itterate
+  1. Define the goal
+  2. Prepare the data
+  3. Find insights and visualize
+  4. Deploy machine learning 
+  5. Itterate
 - Techniques to use: statistical and machine learning techniques as K-nearest neighbors, decision trees, neural networks and regression.
 
 ## Prescriptive Analytics
