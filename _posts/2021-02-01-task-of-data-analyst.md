@@ -8,16 +8,14 @@ date: 2021-02-01
 {% include toc.html %}
 
 ## Prepare data
-- Input: raw data
-- Output: enriched, trusted and understandalbe
-- Clean dirty data 
-- What is dirty data?
-  + Duplicate data
-  + Incorrect data
-  + Missing data
+- Data preparation is the process of profiling, cleaning, and transforming raw data into enriched, trusted, and understandable data to get it ready to model and visualize.
+- Data preparation involves:
+  + Process duplicate data
+  + Correct wrong or inaccurate data
+  + Identify missing data
   + Identify outliers
-  + Inconsistent data
-
+  + Identify inconsistent data
+  
 ## Model
 - Determine how tables are related to each other
 - Define and create relationships between table
