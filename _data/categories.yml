@@ -1,12 +1,4 @@
-- slug: ml
-  name: "Machine Learning"
-- slug: python
-  name: Python
-- slug: french
-  name: French
-- slug: graphs
-  name: Graphs
-- slug: english
-  name: "Learn English"
-- slug: hobbies
-  name: Hobbies
+- slug: notetheme
+  name: NoteTheme
+- slug: it
+  name: Information Technology
