@@ -1,5 +1,7 @@
 ---
-title: "Roles in Data"
+layout: post
+title: Roles in Data
+toc: 1
 categories: [powerbi]
 tags: [PowerBI,DA-100]
 date: 2021-02-01
