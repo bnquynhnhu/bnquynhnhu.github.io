@@ -15,6 +15,9 @@ To analyze data, core components of analytics are divided into the following cat
 
 {% include toc.html %}
 
+{% assign img-url = '/images/posts/powerbi/advanced_analytics.png' %}
+
+
 ### Descriptive Analytics
 - `Answer the question`: What happenned?
 - 90% of organizations use descriptive analytics
