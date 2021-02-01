@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Roles in Data"
 categories: [DA-100]
 tags: [PowerBI,DA-100]
