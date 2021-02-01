@@ -2,3 +2,7 @@
   name: NoteTheme
 - slug: it
   name: Information Technology
+- slug: powerbi
+  name: Power BI
+- slug: graph
+  name: Graphs
