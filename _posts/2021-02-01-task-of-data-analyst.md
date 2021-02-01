@@ -1,5 +1,5 @@
 ---
-title: "Roles in Data"
+title: "Tasks of Data Analyst"
 categories: [powerbi]
 tags: [PowerBI,DA-100]
 date: 2021-02-01
