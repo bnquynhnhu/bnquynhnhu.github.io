@@ -7,6 +7,8 @@ tags: [PowerBI,DA-100]
 date: 2021-02-01
 ---
 
+{% assign img-url = '/images/powerbi' %}
+
 ## Overview of data analysis
 
 Data analysis is the process of identifying, cleaning, transforming, and modeling data to discover meaningful and useful information. The data is then crafted into a story through reports for analysis to support the critical decision-making process.
@@ -14,8 +16,6 @@ Data analysis is the process of identifying, cleaning, transforming, and modelin
 To analyze data, core components of analytics are divided into the following categories:
 
 {% include toc.html %}
-
-{% assign img-url = '/images/powerbi' %}
 
 ![Advanced Analytics]({{img-url}}/advanced_analytics.png){:.img-full-80.pop}
 
