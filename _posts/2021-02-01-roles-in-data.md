@@ -1,6 +1,6 @@
 ---
 title: "Roles in Data"
-categories: [DA-100]
+categories: [powerbi]
 tags: [PowerBI,DA-100]
 date: 2021-02-01
 ---
