@@ -1,10 +1,13 @@
 ---
 layout: post
 title: Overview of data analysis
+toc: 1
 categories: [DA-100]
 tags: [PowerBI,DA-100]
 date: 2021-02-01
 ---
+
+Data analysis is the process of identifying, cleaning, transforming, and modeling data to discover meaningful and useful information. The data is then crafted into a story through reports for analysis to support the critical decision-making process.
 
 To analyze data, core components of analytics are divided into the following categories:
 
@@ -42,3 +45,8 @@ c) Use technologies to discover relationships and trends that explain these anom
 
 ## Cognitive Analytics
 - `Answer the question`: What might happen if circumstances change and determine how you might handle these situations?
+
+<fieldset class="field-set" markdown="1">
+<legend class="leg-title">Title</legend>
+Content
+</fieldset>
