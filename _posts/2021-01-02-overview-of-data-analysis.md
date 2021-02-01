@@ -2,7 +2,7 @@
 layout: post
 title: Overview of data analysis
 toc: 1
-categories: [DA-100]
+categories: [powerbi]
 tags: [PowerBI,DA-100]
 date: 2021-02-01
 ---
