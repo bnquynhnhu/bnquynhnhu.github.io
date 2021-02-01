@@ -17,7 +17,7 @@ To analyze data, core components of analytics are divided into the following cat
 
 {% assign img-url = '/images/powerbi' %}
 
-![Basic idea of autoencoder]({{img-url}}/advanced_analytics.png){:.img-full-80.pop}
+![Advanced Analytics]({{img-url}}/advanced_analytics.png){:.img-full-80.pop}
 
 ### Descriptive Analytics
 - `Answer the question`: What happenned?
