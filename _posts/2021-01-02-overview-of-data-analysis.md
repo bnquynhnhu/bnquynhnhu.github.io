@@ -61,8 +61,6 @@ c) Use technologies to discover relationships and trends that explain these anom
 - item 6
 </div>
 
-![](/images/powerbi/advanced_analytics.png){:.w-500 .no-border}
-
 <fieldset class="field-set" markdown="1">
 <legend class="leg-title">Title</legend>
 Content
