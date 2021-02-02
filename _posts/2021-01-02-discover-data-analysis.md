@@ -7,7 +7,7 @@ tags: [PowerBI,DA-100]
 date: 2021-02-01
 ---
 
-## I. Overview of data analysis
+# I. Overview of data analysis
 
 Data analysis is the process of identifying, cleaning, transforming, and modeling data to discover meaningful and useful information. The data is then crafted into a story through reports for analysis to support the critical decision-making process.
 
@@ -107,7 +107,8 @@ Note: - keep data small -> too much data can make detecting key point difficult
 - Management of PowerBI assets reduce the duplication of efforts and ensure security of the data.
 - Database (Microsoft Azure Services, MS SQL)
 
-Check your knowledge
+# IV. Check your knowledge
+
 ![](/images/powerbi/microsoft-quiz1.png){:.w-500 .no-border}
 
 <fieldset class="field-set" markdown="1">
