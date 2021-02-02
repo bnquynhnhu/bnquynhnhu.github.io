@@ -18,23 +18,22 @@ date: 2021-02-01
 Here is a common workflow of Power BI:
 - User creates a report in **Power BI Desktop**
 - He/she then publishes the report to **Power BI Service** and then shares it to others
-- Users then view/interact the report/dashboard in the service and **Power BI Mobile apps**
+- Other users can view/consume the report on **Power BI Mobile apps**
 
 # IV. Building Blocks in Power BI
-- **Visualizations** is a visual representation of data, like a chart, a map, etc, sometimes just called visuals.
+- **Visualizations** is a visual representation of data, like a chart, a map, etc
 - **Dataset** is a collection of data that Power BI uses to create its visualizations.
-- **Reports** is a collection of visuals from a dataset, spanning one or more pages.
-- **Dashboard** is a single-page collection of visuals built from a report.
-- **Tiles** is a single visualization on a report or dashbord. It is a rectangular box that holds an individual visual.
+- **Reports** is a collection of visualizations that appears together on one or more pages. A reports has many pages, each page has many visualizations.
+- **Dashboard** is a collection of visuals from a SINGLE PAGE that you can share with others. A dashboard must fit a single page, called canvas.
+- **Tiles** is SINGLE VISUALIZATION from a report or dashboard. It is a rectangular box that holds an individual visual.
 
-### Difference between Visualizations and Tiles:
-The difference is in the origin of the Power BI artifact and the setup required to retrieve it.
-- Report visual - as the name suggests, this is a visual that resides inside a Power BI report.
-- Tile - this is a dashboard tile, that is essentially a visual that is pinned to a dashboard in Power BI.
-
-### Difference between Dashboards and Reports:
-
-![](/images/powerbi/report-and-dashboard.jpeg)
-
-### What is an app?
-An app is a collection of ready-made visuals, pre-arranged in dashboards and reports.
+<table>
+<thead>
+  <tr>
+    <th>1</th><th>2</th>
+  </tr>
+  <tr>
+    <td>dfsd</td>
+    <td>sdf</td>
+    </tr>
+</thead>
