@@ -12,7 +12,7 @@ date: 2021-02-01
 
 # II. The parts of Power BI
 
-![](/images/powerbi/pbi-intro_02.png){:.w-500 .no-border}
+![](/images/powerbi/pbi-intro_02.png)
 
 # III. The flow of work in Power BI
 Here is a common workflow of Power BI:
