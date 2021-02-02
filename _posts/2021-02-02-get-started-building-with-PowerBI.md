@@ -35,3 +35,6 @@ The difference is in the origin of the Power BI artifact and the setup required 
 ### Difference between Dashboards and Reports:
 
 ![](/images/powerbi/report-and-dashboard.jpeg)
+
+### What is an app?
+An app is a collection of ready-made visuals, pre-arranged in dashboards and reports.
