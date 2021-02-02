@@ -35,11 +35,6 @@ Here is a common workflow of Power BI:
     <th>Direct query</th>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
     <td>Size</td>
     <td>Up to 1GB per dataset </td>
     <td>Data is on-premise, no PowerBI service limitation</td>
@@ -50,8 +45,18 @@ Here is a common workflow of Power BI:
     <td>Data come from single source</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Performance</td>
+    <td>No noticeable delay since the data model is already cached</td>
+    <td>Slow in query response</td>
+  </tr>
+  <tr>
+    <td>Refresh frequency</td>
+    <td>Data refresh need to be done once in a day or week or month or interval of hours.0</td>
+    <td>Near to real time data processing. Use if the objective is to always have fresh data.</td>
+  </tr>
+  <tr>
+    <td>DAX</td>
+    <td>DAX support</td>
+    <td>Many limitations to DAX</td>
   </tr>
 </thead>
