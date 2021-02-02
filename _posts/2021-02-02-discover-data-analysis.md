@@ -106,7 +106,7 @@ Note: - keep data small -> too much data can make detecting key point difficult
 - Management of PowerBI assets reduce the duplication of efforts and ensure security of the data.
 - Database (Microsoft Azure Services, MS SQL)
 
-Check your knowledge
+# IV. Check your knowledge
 ![](/images/powerbi/microsoft-quiz1.png){:.w-500 .no-border}
 
 <fieldset class="field-set" markdown="1">
