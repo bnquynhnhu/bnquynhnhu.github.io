@@ -30,10 +30,28 @@ Here is a common workflow of Power BI:
 <table>
 <thead>
   <tr>
-    <th>1</th><th>2</th>
+    <th></th>
+    <th>Import mode</th>
+    <th>Direct query</th>
   </tr>
   <tr>
-    <td>dfsd</td>
-    <td>sdf</td>
-    </tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Size</td>
+    <td>Up to 1GB per dataset </td>
+    <td>Data is on-premise, no PowerBI service limitation</td>
+  </tr>
+  <tr>
+    <td>Data Source</td>
+    <td>Data come from multiple sources</td>
+    <td>Data come from single source</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
 </thead>
