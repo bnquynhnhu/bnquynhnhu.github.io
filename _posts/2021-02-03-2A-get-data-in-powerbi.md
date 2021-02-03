@@ -11,13 +11,13 @@ date: 2021-02-03
 
 ![](/images/powerbi/get-data.png)
 
--	Microsoft AppSource
-  o	Data from services
-    • SaaS services that you already use, e.g. Marketo, Salesforce, Github, GoogleAnalytics, SharePoint, OneDrive, Dynamics 365
-    •	Growing number of supported SaaS solutions
-  o	Data from your organization
+1.	Microsoft AppSource
+  -	Data from services
+    - SaaS services that you already use, e.g. Marketo, Salesforce, Github, GoogleAnalytics, SharePoint, OneDrive, Dynamics 365
+    -	Growing number of supported SaaS solutions
+  -	Data from your organization
     •	Content published by others in your org (organizational content packs)
-- Import or Connect to Data
+2. Import or Connect to Data
   o	Database:
     •	Azure data services, e.g. Azure HDInsight (Hadoop), Azure Stream Analytics (ASA), Azure Machine Learning (AML) etc.
     •	Data sources on cloud such as Azure SQL Database, Azure SQL Data Warehouse and etc.
