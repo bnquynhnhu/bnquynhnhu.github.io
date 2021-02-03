@@ -87,7 +87,6 @@ Here’s the scenarios where Query Folding does not take place:
 Watch this video "Power BI Tutorial for Beginners: Get Data. Query Editor" to understand more about Query Editor.
 [![Power BI Tutorial for Beginners: Get Data. Query Editor]](https://www.youtube.com/watch?v=hw6-DNhgOos)
 {% include youtube.html content="wIsK4kQTrIg" size="5" %}
-![](/images/powerbi/get-data.png)
 
 ### Query diagnostics 
 - To determine what bottlenecks exist while loading/transforming/refreshing data in Power Query, running SQL statements in Query Editor, etc.
