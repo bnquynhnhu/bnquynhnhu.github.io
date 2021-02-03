@@ -29,6 +29,23 @@ To connect data, you can just select the Get Data button in the lower-left corne
 
 After you connect to data source, you have the option to select the **Load** button to automatically load your data into the Power BI model without making any changes to it or select the Transform Data button to launch the Power Query Editor, where you can review and clean your data before loading it into the Power BI model.
 
+# II. Get data from files
+- Flat file: 
+  * file has only one data table and every row of data is in the same structure. 
+  * does not contain hierarchies.
+- Which file location to export and store data: 
+  * Local (create new dataset, data is loaded, link does not remain), OneDrive business (any changes in data, auto-updated to PowerBI), OneDrive personal (same benefits as Buz, just need to sign in), SharePoint.
+  * Most effective way: SharePoint, OneDrive. If data is not changed regularly, saving files in local computer is OK.
+- How to import?
+  * Select "Get Data"
+  * Selct File Type (Excel, SharePoint,...), select file, press "Open"
+  * Select table or entity
+  * There are two options: Load (load data into PowerBI, no change), Transform (Review data, change data such as such as deleting unnecessary rows or columns, grouping your data, removing errors, etc)
+- Change the source file:
+  * Data source settings  
+  * Query settings  
+  * Advanced Editor 
+  
 # II. Select a storage mode
 The three different types of storage modes you can choose from:
 - Import: create a local Power BI copy of your datasets from your data source
