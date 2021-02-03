@@ -70,8 +70,9 @@ The three different types of storage modes you can choose from:
 Optimize performance in Power Query
 
 ## Query folding 
+There exists some techniques to optimize database performance
 
-### What is Query Folding?
+### Query Folding
 Convert M language to the native language of the source and the transformations happens on the source side instead of on locally on your machine in Power BI.
 
 The idea behind Query Folding is to push the logic that you built into a Power BI query back to the data source server and execute it there in it’s native language instead of doing a client side transform of the data.  Why is this important?  Let me give you an example.  Say you have a 2 billion row SQL Server table you need to connect to in Power BI, but you want to filter to only return the last year of data.  With Query Folding the filter of that data is done on the SQL Server side instead of on the client side. If Query Folding did not take place then that would mean all 2 billion rows would be brought across the network only to then filtered out on the client workstation.  So clearly the ideal situation is that all your queries get folded for the best possible performance, but Query Folding only works in certain scenarios.
@@ -82,6 +83,16 @@ Here’s the scenarios where Query Folding does not take place:
 
 Watch this video "Power BI Tutorial for Beginners: Get Data. Query Editor" to understand more about Query Editor.
 [![Power BI Tutorial for Beginners: Get Data. Query Editor]](https://www.youtube.com/watch?v=hw6-DNhgOos)
+{% include youtube.html content="wIsK4kQTrIg" size="5" %}
+![](/images/powerbi/get-data.png)
+
+### Query diagnostics 
+- To determine what bottlenecks exist while loading/transforming/refreshing data in Power Query, running SQL statements in Query Editor, etc.
+
+### Other techniques to optimize performance  
+- **Process as much data as possible in the original data source**. Power Query and Power Query Editor allow you to process the data; however, the processing power that is required to complete this task might lower performance in other areas of your reports. Generally, a good practice is to process, as much as possible, in the native data source.
+- **Use native SQL queries**. When using DirectQuery for SQL databases, such as the case for our scenario, *make sure that you are not pulling data from stored procedures or common table expressions (CTEs)*.
+- **Separate date and time**, if bound together. If any of your tables have columns that combine date and time, make sure that you separate them into distinct columns before importing them into Power BI. 
 
 Reference
 - https://blog.pragmaticworks.com/power-bi-checking-query-folding-with-view-native-query
