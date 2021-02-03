@@ -171,7 +171,7 @@ There exists some techniques to optimize query performance:
 ### Optimize performance in Power Query
 
 #### Query Folding
-**Query Folding**: push the logic that you built into a Power BI query back to the data source server and execute it there in its native language instead of doing a client side transform of the data.  This technique is useful when dealing with huge dataset. For example, instead of loading 2 billions rows of sales data to Power BI to filter only last year of data, with Query Folding, filter of that data is done on SQL Server side.
+Query Folding push the logic that you built into a Power BI query back to the data source server and execute it there in its native language instead of doing a client side transform of the data.  This technique is useful when dealing with huge dataset. For example, instead of loading 2 billions rows of sales data to Power BI to filter only last year of data, with Query Folding, filter of that data is done on SQL Server side.
 
 To increase performance, use native queries. 
 A good guideline to remember is that if you can translate a transformation into a Select SQL statement, which includes operators and clauses such as GROUP BY, SORT BY, WHERE, UNION ALL, and JOIN, you can use query folding.
