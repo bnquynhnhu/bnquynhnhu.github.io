@@ -77,6 +77,38 @@ After you connect to data source, you have the option to select the **Load** but
 # V. Get data from online services
 
 # VI. Get data from Azure Analysis Services
+- Differences between Azure Analysis Services cubes and SQL Server
+    * AAS have calculations already in the cube
+    * AAS use multi-dimensional expressions (MDX) or data analysis expressions (DAX) as language while SQL use Transact-SQL (T-SQL) to query the data.
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>SQL</th>
+      <th>Power BI</th>
+      <th>Azure Analysis Services</th>      
+    </tr>
+  </thead>
+  <tr>
+    <td>DAX</td>
+    <td></td>
+    <td>x</td>
+    <td>x</td>
+  </tr>
+  <tr>
+    <td>T-SQL</td>
+    <td>x</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>MDX</td>
+    <td></td>
+    <td></td>
+    <td>x</td>
+  </tr>
+</table>
 
 # VII. Select a storage mode
 The three different types of storage modes you can choose from:
