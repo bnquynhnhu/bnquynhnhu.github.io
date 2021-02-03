@@ -18,23 +18,20 @@ To analyze data, core components of analytics are divided into the following cat
 ![](/images/powerbi/advanced_analytics.png){:.w-500 .no-border}
 
 ### Descriptive Analytics
-- `Answer the question`: What happenned?
-- 90% of organizations use descriptive analytics
-- Analyses the data coming in real-time and historical data for insights.
-- Input: real-time and historical data
-- Output: visualizations
+- Descriptive analytics help answer questions about what has happened based on historical data. Descriptive analytics techniques summarize large datasets to describe outcomes to stakeholders.
+Examples: 
+- Generate reports to provide a view of an organization's sales and financial data.
 
 ### Diagnostic Analytics
-- `Answer the question`: Why did it happen?
+- Diagnostic analytics help answer questions about why events happened. Diagnostic analytics techniques supplement basic descriptive analytics, and they use the findings from descriptive analytics to discover the cause of these events.
 - Steps to do:
 a) Identify anomalies in the data
-b) Collect data related to these anomalies
-c) Use technologies to discover relationships and trends that explain these anomalies.
+b) Collect data that's related to these anomalies
+c) Use statistical technologies to discover relationships and trends that explain these anomalies.
 - Techniques to use: scatter charts, corrrelations, etc
 
-
-### Predictive Analytics
-- `Answer the question`: What will happen in the future?
+### Predictive Analytics: 
+- Predictive analytics help answer questions about what will happen in the future. Predictive analytics techniques use historical data to identify trends and determine if they're likely to recur.
 - Steps to do:
   1. Define the goal
   2. Prepare the data
@@ -44,11 +41,11 @@ c) Use technologies to discover relationships and trends that explain these anom
 - Techniques to use: statistical and machine learning techniques as K-nearest neighbors, decision trees, neural networks and regression.
 
 ### Prescriptive Analytics
-- `Answer the question`: What do I need to do?
-- Description: Recommend an action based on the forecast.
+- Prescriptive analytics help answer questions about which actions should be taken to achieve a goal or target. By using insights from predictive analytics, organizations can make data-driven decisions. This technique allows businesses to make informed decisions in the face of uncertainty.
+- Prescriptive analytics techniques rely on machine learning strategies to find patterns in large datasets.
 
 ### Cognitive Analytics
-- `Answer the question`: What might happen if circumstances change and determine how you might handle these situations?
+- Cognitive analytics attempt to draw inferences from existing data and patterns, derive conclusions based on existing knowledge bases, and then add these findings back into the knowledge base for future inferences, a self-learning feedback loop. Cognitive analytics help you learn what might happen if circumstances change and determine how you might handle these situations.
 
 # II. Roles in Data
 ## Business Analyst
@@ -59,8 +56,7 @@ c) Use technologies to discover relationships and trends that explain these anom
 ## Data Analyst
 - Implement the **advanced analytics capabilities into reports and visualizations**
 - Profile, clean, and transform data
-- Design & build scalable & effective data models
-- Manage Power BI assets (reports, dashboards, workspace, and the underlying datasets, etc)
+- Is responsible for designing & building scalable & effective data models, manage Power BI assets (reports, dashboards, workspace, and the underlying datasets, etc)
 - Work with Data Engineer and DB Admin
 Note: Data Analyst and Business Analyst could be the single person
 
@@ -71,6 +67,7 @@ Note: Data Analyst and Business Analyst could be the single person
 - Work with business stakeholder to identify & meet data requirements, and then design & implement solutions.
 
 ## Data Scientist
+- Perform advanced analytics to extract value from data.  Their work can vary from descriptive analytics to predictive analytics. Descriptive analytics evaluate data through a process known as exploratory data analysis (EDA). Predictive analytics are used in machine learning to apply modeling techniques that can detect anomalies or patterns. These analytics are important parts of forecast models.
 
 ## DB Admin
 - DB Admin manages the overall health of a db and the hardware that it resides on, manages the user access to the data.
