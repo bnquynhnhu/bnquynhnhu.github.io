@@ -13,17 +13,17 @@ date: 2021-02-03
 
 1.	Microsoft AppSource
   -	Data from services
-    - SaaS services that you already use, e.g. Marketo, Salesforce, Github, GoogleAnalytics, SharePoint, OneDrive, Dynamics 365
-    -	Growing number of supported SaaS solutions
+    * SaaS services that you already use, e.g. Marketo, Salesforce, Github, GoogleAnalytics, SharePoint, OneDrive, Dynamics 365
+    *	Growing number of supported SaaS solutions
   -	Data from your organization
-    •	Content published by others in your org (organizational content packs)
+    *	Content published by others in your org (organizational content packs)
 2. Import or Connect to Data
-  o	Database:
-    •	Azure data services, e.g. Azure HDInsight (Hadoop), Azure Stream Analytics (ASA), Azure Machine Learning (AML) etc.
-    •	Data sources on cloud such as Azure SQL Database, Azure SQL Data Warehouse and etc.
-    •	On-premises data sources, such as SQL Server, Oracle, MySQL, etc.
-  o	Data from files
-    •	Import data from local files as Text, CSV, Excel and Power BI Desktop files.
+  -	Database:
+    *	Azure data services, e.g. Azure HDInsight (Hadoop), Azure Stream Analytics (ASA), Azure Machine Learning (AML) etc.
+    *	Data sources on cloud such as Azure SQL Database, Azure SQL Data Warehouse and etc.
+    *	On-premises data sources, such as SQL Server, Oracle, MySQL, etc.
+  -	Data from files
+    *	Import data from local files as Text, CSV, Excel and Power BI Desktop files.
     
 # II. Select a storage mode
 The three different types of storage modes you can choose from:
