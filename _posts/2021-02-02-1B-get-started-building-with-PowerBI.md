@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Get started building with Power BI
+title: Module 1A: Get started with Microsoft data analytics - Get started building with Power BI
 toc: 1
 categories: [powerbi]
 tags: [PowerBI,DA-100]
