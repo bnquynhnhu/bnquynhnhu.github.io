@@ -71,64 +71,18 @@ Optimize performance in Power Query
 
 ## Query folding 
 
-In my opinion, the explanation in the Microsoft DA-100 learning path is not easy to understand. I found this definition is so much understandable:
+### What is Query Folding?
+Convert M language to the native language of the source and the transformations happens on the source side instead of on locally on your machine in Power BI.
 
-<p class="post-more-info" markdown="1">
-"The idea behind Query Folding is to push the logic that you built into a Power BI query back to the data source server and execute it there in it’s native language instead of doing a client side transform of the data.  Why is this important?  Let me give you an example.  Say you have a 2 billion row SQL Server table you need to connect to in Power BI, but you want to filter to only return the last year of data.  With Query Folding the filter of that data is done on the SQL Server side instead of on the client side. If Query Folding did not take place then that would mean all 2 billion rows would be brought across the network only to then filtered out on the client workstation.  So clearly the ideal situation is that all your queries get folded for the best possible performance, but Query Folding only works in certain scenarios.
+The idea behind Query Folding is to push the logic that you built into a Power BI query back to the data source server and execute it there in it’s native language instead of doing a client side transform of the data.  Why is this important?  Let me give you an example.  Say you have a 2 billion row SQL Server table you need to connect to in Power BI, but you want to filter to only return the last year of data.  With Query Folding the filter of that data is done on the SQL Server side instead of on the client side. If Query Folding did not take place then that would mean all 2 billion rows would be brought across the network only to then filtered out on the client workstation.  So clearly the ideal situation is that all your queries get folded for the best possible performance, but Query Folding only works in certain scenarios.
 Here’s the scenarios where Query Folding does not take place:
 - You are using an unsupported data source. This usually makes sense. For example, if you’re connecting to a flat file that there is no backend server that the queries can be run against.
 - You are using an unsupported transform type.  Generally this makes sense too.  For example, if you’re connecting to a SQL Server data source and you select a tranform in the Query Editor that doesn’t exist in SQL Server.  Maybe you choose the transform Capitalize Each Word.  Now there are ways to accomplish this in SQL Server but there is not a native T-SQL function that can capitalize the first letter of every word in a field.
 - You write your own source query. When you establish a connection in Power BI to a database
-</p>
 
 Watch this video "Power BI Tutorial for Beginners: Get Data. Query Editor" to understand more about Query Editor.
 {% include youtube.html content="hw6-DNhgOos" size="5" %}
 
-{% include youtube.html content="wIsK4kQTrIg" size="5" %}
+Reference
+https://blog.pragmaticworks.com/power-bi-checking-query-folding-with-view-native-query
 
-Hide/Show
-<ul class="collapsible" data-collapsible="accordion">
-<li>
-<div class="collapsible-header" markdown="1"><i class="material-icons">face</i>
-Title
-</div>
-<div class="collapsible-body" markdown="1">
-Content
-</div>
-</li>
-</ul>
-Notifications
-Info
-
-<p markdown="1" class="thi-tip">
-<i class="material-icons mat-icon">info</i>
-content
-</p>
-Error
-
-<p markdown="1" class="thi-warning">
-<i class="material-icons mat-icon">error</i>
-content
-</p>
-Pull quotes
-<p class="post-more-info" markdown="1">
-The content of extra info of the post.
-</p>
-Summarization box
-<fieldset class="field-set" markdown="1">
-<legend class="leg-title">Title</legend>
-Content
-</fieldset>
-Theorem style
-<div class="thi-box" markdown="1">
-<div class="box-title" markdown="1">
-**Title**
-</div>
-<div class="box-content" markdown="1">
-Content
-</div>
-</div>
-Important boxes
-<div class="p-mark" markdown="1">
-Content
-</div>
