@@ -4,12 +4,12 @@ title: Module 2A - Prepare data for analysis - Get data in Power BI
 toc: 1
 categories: [powerbi]
 tags: [PowerBI,DA-100]
-date: 2021-02-01
+date: 2021-02-03
 ---
 
 ## I. Get data from different data sources:
 
-![](/images/powerbi/get-data.png){:.w-500 .no-border}
+![](/images/powerbi/get-data.png)
 
 -	Microsoft AppSource
   o	Data from services
@@ -32,12 +32,13 @@ The three different types of storage modes you can choose from:
 - Dual (Composite)
 
 <table>
-<thead>
-  <tr>
-    <th></th>
-    <th>Import mode</th>
-    <th>Direct query</th>
-  </tr>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Import mode</th>
+      <th>Direct query</th>
+    </tr>
+  </thead>
   <tr>
     <td>Size</td>
     <td>Up to 1GB per dataset </td>
@@ -63,10 +64,9 @@ The three different types of storage modes you can choose from:
     <td>DAX support</td>
     <td>Many limitations to DAX</td>
   </tr>
-</thead>
-
+</table>
 
 <fieldset class="field-set" markdown="1">
-<legend class="leg-title">Title</legend>
-Content
+  <legend class="leg-title">Title</legend>
+  Content
 </fieldset>
