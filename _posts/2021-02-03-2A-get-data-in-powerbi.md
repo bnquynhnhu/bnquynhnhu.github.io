@@ -11,13 +11,13 @@ date: 2021-02-03
 
 ![](/images/powerbi/get-data.png)
 
-1.	Microsoft AppSource
+### 1.	Microsoft AppSource
   -	Data from services
     * SaaS services that you already use, e.g. Marketo, Salesforce, Github, GoogleAnalytics, SharePoint, OneDrive, Dynamics 365
     *	Growing number of supported SaaS solutions
   -	Data from your organization
     *	Content published by others in your org (organizational content packs)
-2. Import or Connect to Data
+### 2. Import or Connect to Data
   -	Database:
     *	Azure data services, e.g. Azure HDInsight (Hadoop), Azure Stream Analytics (ASA), Azure Machine Learning (AML) etc.
     *	Data sources on cloud such as Azure SQL Database, Azure SQL Data Warehouse and etc.
@@ -67,7 +67,7 @@ The three different types of storage modes you can choose from:
 </table>
 
 # III. Fix performance issues
-There exists some techniques to optimize query performance
+There exists some techniques to optimize query performance:
 
 ### Query Folding
 Convert M language to the native language of the source and the transformations happens on the source side instead of on locally on your machine in Power BI.
@@ -90,6 +90,14 @@ Watch this video "Power BI Tutorial for Beginners: Get Data. Query Editor" to un
 - **Process as much data as possible in the original data source**. Power Query and Power Query Editor allow you to process the data; however, the processing power that is required to complete this task might lower performance in other areas of your reports. Generally, a good practice is to process, as much as possible, in the native data source.
 - **Use native SQL queries**. When using DirectQuery for SQL databases, such as the case for our scenario, *make sure that you are not pulling data from stored procedures or common table expressions (CTEs)*.
 - **Separate date and time**, if bound together. If any of your tables have columns that combine date and time, make sure that you separate them into distinct columns before importing them into Power BI. 
+
+# IV. Resolve data import errors
+Common errors you might have:
+- Query timeout expired 
+- Power BI Query Error: Timeout expired
+- We couldn't find any data formatted as a table (open the Excel file, select the data set, and then press Ctrl+T, and then reopen the file)
+- Could not find file 
+- Data type errors: specìy 
 
 Reference
 - https://blog.pragmaticworks.com/power-bi-checking-query-folding-with-view-native-query
