@@ -27,9 +27,9 @@ date: 2021-02-03
     
 # II. Select a storage mode
 The three different types of storage modes you can choose from:
-- Import
-- DirectQuery
-- Dual (Composite)
+- Import: create a local Power BI copy of your datasets from your data source
+- DirectQuery: create a direct connnection to the data source. This method is useful when you do not want to save local copies of your data because your data is huge. With this mothode, your data is always up-to-date. However, its downside is the performance by having to load large amounts of data.
+- Dual (Composite): you can identify some data to be directly imported and other data that must be queried.
 
 <table>
   <thead>
@@ -66,7 +66,4 @@ The three different types of storage modes you can choose from:
   </tr>
 </table>
 
-<fieldset class="field-set" markdown="1">
-  <legend class="leg-title">Title</legend>
-  Content
-</fieldset>
+# III. Fix performance issues
