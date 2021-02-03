@@ -34,17 +34,34 @@ After you connect to data source, you have the option to select the **Load** but
   * file has only one data table and every row of data is in the same structure. 
   * does not contain hierarchies.
 - Which file location to export and store data: 
-  * Local (create new dataset, data is loaded, link does not remain), OneDrive business (any changes in data, auto-updated to PowerBI), OneDrive personal (same benefits as Buz, just need to sign in), SharePoint.
+  * There are some options: Local (create new dataset, data is loaded, link does not remain), OneDrive business (any changes in data, auto-updated to PowerBI), OneDrive personal (same benefits as Buz, just need to sign in), SharePoint, etc.
   * Most effective way: SharePoint, OneDrive. If data is not changed regularly, saving files in local computer is OK.
 - How to import?
   * Select "Get Data"
   * Selct File Type (Excel, SharePoint,...), select file, press "Open"
-  * Select table or entity
+  * Select tables or entity
   * There are two options: Load (load data into PowerBI, no change), Transform (Review data, change data such as such as deleting unnecessary rows or columns, grouping your data, removing errors, etc)
 - Change the source file:
   * Data source settings  
   * Query settings  
   * Advanced Editor 
+
+# III. Get data from relational data sources
+- Connect to many relational databases (in the cloud, on-premises)
+- How to import?
+  * Select "Get Data"
+  * Enter your database server name and a database name (There is an option to choose "Import data by writing an SQL query" at this step)
+  * Next step is to sign in with a username and password. There are three sign-in options: 
+    . Windows - Use your Windows account (Azure Active Directory credentials).
+    . Database - Use your database credentials.  
+    . Microsoft account - Use your Microsoft account credentials. This option is often used for Azure services. 
+  * Select tables or entity
+  * There are two options: Load or Transform
+- Change data source settings: Tranform Data -> Data Source Settings
+- Write SQL:
+  * avoid using the wildcard character to specify columns
+  * queries should have a WHERE clause to filter
+  * best practice: write query in a view
   
 # II. Select a storage mode
 The three different types of storage modes you can choose from:
