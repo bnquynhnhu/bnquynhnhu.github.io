@@ -75,6 +75,8 @@ After you connect to data source, you have the option to select the **Load** but
   * Select Close & Apply to load the data into Power BI Desktop. 
 
 # V. Get data from online services
+- Combine the data from multiple applications, such as SharePoint, OneDrive, Dynamics 365, Google Analytics, etc.
+- For SharePoint, OneDrive, input the URL (do not copy the whole URL,  delete the last part of your URL)
 
 # VI. Get data from Azure Analysis Services
 - Differences between Azure Analysis Services cubes and SQL Server
@@ -109,6 +111,15 @@ After you connect to data source, you have the option to select the **Load** but
     <td>x</td>
   </tr>
 </table>
+
+- Connect to data in Azure Analysis Services: 
+There are two options to connect: 
+  * Import
+  * Connect live: keep the data and DAX calculations in their original location, without having to import them all into Power BI. When data is refreshed in the AAS, Power BI reports will immediately be updated, *without initiating a Power BI refresh schedule*. This process can improve the timeliness of the data in your report.
+
+An acceptable alternative is to import all data from different sources into AAS and then use a live connection. Using this approach, the data modeling and DAX measures are all performed in one place, and it's a much simpler and easier way to maintain your solution.
+
+**Note: Direct Query doesn't exist when connecting to AAS cubes.**
 
 # VII. Select a storage mode
 The three different types of storage modes you can choose from:
@@ -154,7 +165,7 @@ The three different types of storage modes you can choose from:
   </tr>
 </table>
 
-# III. Fix performance issues
+# VIII. Fix performance issues
 There exists some techniques to optimize query performance:
 
 ### Optimize performance in Power Query
@@ -184,7 +195,7 @@ Here’s the scenarios where Query Folding does not take place:
 - **Use native SQL queries**, not pulling data from **stored procedures or common table expressions (CTEs)**.
 - **Separate date and time**, if bound together. If any of your tables have columns that combine date and time, make sure that you separate them into distinct columns before importing them into Power BI. 
 
-# IV. Resolve data import errors
+# IX. Resolve data import errors
 Common errors you might have:
 - **Query timeout expired**: config timespan 
 - **Power BI Query Error: Timeout expired** = pulled too much data according to your organization’s policies =>  resolve by pulling fewer columns or rows from a single table, avoid using complex queries (group, aggregation, join, subquery, nested query) => implement them in Power BI
@@ -192,6 +203,6 @@ Common errors you might have:
 - Could not find file 
 - Data type errors: convert column type explicitly by using CAST function in SQL (SELECT CAST(CustomerPostalCode as varchar(10)) FROM Sales.Customers)
 
-Reference
-- https://blog.pragmaticworks.com/power-bi-checking-query-folding-with-view-native-query
+# X. Check your knowledge
+![](/images/powerbi/microsoft-quiz3.png)
 
