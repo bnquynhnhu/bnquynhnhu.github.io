@@ -13,7 +13,7 @@ To connect data, you can just select the Get Data button in the lower-left corne
 
 ![](/images/powerbi/get-data.png)
 
-### 1.	Microsoft AppSource
+### 1.	Content Pack Library
   -	Data from services
     * SaaS services that you already use, e.g. Marketo, Salesforce, Github, GoogleAnalytics, SharePoint, OneDrive, Dynamics 365
     *	Growing number of supported SaaS solutions
@@ -26,7 +26,9 @@ To connect data, you can just select the Get Data button in the lower-left corne
     *	On-premises data sources, such as SQL Server, Oracle, MySQL, etc.
   -	Data from files
     *	Import data from local files as Text, CSV, Excel and Power BI Desktop files.
-    
+
+After you connect to data source, you have the option to select the **Load** button to automatically load your data into the Power BI model without making any changes to it or select the Transform Data button to launch the Power Query Editor, where you can review and clean your data before loading it into the Power BI model.
+
 # II. Select a storage mode
 The three different types of storage modes you can choose from:
 - Import: create a local Power BI copy of your datasets from your data source
