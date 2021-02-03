@@ -64,7 +64,16 @@ After you connect to data source, you have the option to select the **Load** but
   * best practice: write query in a view
 
 # IV. Get data from a NoSQL database
-
+- NoSQL = non-SQL = not only SQL = non-relational
+- Connect to a NoSQL database (Azure Cosmos DB) 
+  * Select "Get Data" -> "Azure" -> "Azure Cosmo DB"
+  * Enter  database credentials: URL (you can get the URL from the Keys blade of your Azure portal), database (optinal), collection (optinal). For the first time, you might be asked to input account key (Primary Key of your Azure portal)
+  * If the connection is successful, a list of databases is displayed.
+  * Select the table to import
+  * To pull JSON element out, click "Edit" to open the records in Power Query.  
+  * In Power Query, select the Expander button to the right side of the Column1 header, select the fields, it will blow up the JSON files.
+  * Select Close & Apply to load the data into Power BI Desktop. 
+  
 # V. Select a storage mode
 The three different types of storage modes you can choose from:
 - Import: create a local Power BI copy of your datasets from your data source
