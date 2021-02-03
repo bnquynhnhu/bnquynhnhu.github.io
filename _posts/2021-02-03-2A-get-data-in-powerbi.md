@@ -73,8 +73,10 @@ After you connect to data source, you have the option to select the **Load** but
   * To pull JSON element out, click "Edit" to open the records in Power Query.  
   * In Power Query, select the Expander button to the right side of the Column1 header, select the fields, it will blow up the JSON files.
   * Select Close & Apply to load the data into Power BI Desktop. 
-  
-# V. Select a storage mode
+
+# V. Get data from online services
+
+# VII. Select a storage mode
 The three different types of storage modes you can choose from:
 - Import: create a local Power BI copy of your datasets from your data source
 - DirectQuery: create a direct connnection to the data source. This method is useful when you do not want to save local copies of your data because your data is huge. With this mothode, your data is always up-to-date. However, its downside is the performance by having to load large amounts of data.
