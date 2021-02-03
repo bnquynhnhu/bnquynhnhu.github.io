@@ -134,13 +134,13 @@ The idea behind **Query Folding** is to push the logic that you built into a Pow
 Example: Instead of loading 2 billions rows of sales data to Power BI to filter only last year of data, with Query Folding, filter of that data is done on SQL Server side.
 
 Here’s the scenarios where Query Folding does not take place:
-- You are using an unsupported data source. For example, if you’re connecting to a flat file that there is no backend server that the queries can be run against.
-- You are using an unsupported transform type.  For example, if you’re connecting to a SQL Server data source and you select a tranform in the Query Editor that doesn’t exist in SQL Server.  Maybe you choose the transform Capitalize Each Word.  Now there are ways to accomplish this in SQL Server but there is not a native T-SQL function that can capitalize the first letter of every word in a field.
-- You write your own source query. When you establish a connection in Power BI to a database.
+- using an unsupported data source
+- using an unsupported transform type
+- You write your own source query.
 
 Watch this video "Power BI Tutorial for Beginners: Get Data. Query Editor" to understand more about Query Editor.
-[![Power BI Tutorial for Beginners: Get Data. Query Editor]](https://www.youtube.com/watch?v=hw6-DNhgOos)
-{% include youtube.html content="wIsK4kQTrIg" size="5" %}
+![Power BI Tutorial for Beginners: Get Data. Query Editor](https://www.youtube.com/watch?v=hw6-DNhgOos)
+
 
 #### Query diagnostics 
 - To determine what bottlenecks exist while loading/transforming/refreshing data in Power Query, running SQL statements in Query Editor, etc.
