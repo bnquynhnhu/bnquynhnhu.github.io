@@ -27,4 +27,8 @@ Here is a common workflow of Power BI:
 - **Dashboard** is a collection of visuals from a SINGLE PAGE that you can share with others. A dashboard must fit a single page, called canvas.
 - **Tiles** is SINGLE VISUALIZATION from a report or dashboard. It is a rectangular box that holds an individual visual.
 
+# V. Tour and use the Power BI service
+- **Canvas** is the area in the center of the Power BI service.
+- An **app** is a collection of ready-made visuals that are pre-arranged on dashboards and reports for your organization. 
 
+![](/images/powerbi/microsoft-quiz2.png)
