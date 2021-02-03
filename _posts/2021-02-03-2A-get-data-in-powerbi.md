@@ -62,8 +62,10 @@ After you connect to data source, you have the option to select the **Load** but
   * avoid using the wildcard character to specify columns
   * queries should have a WHERE clause to filter
   * best practice: write query in a view
-  
-# II. Select a storage mode
+
+# IV. Get data from a NoSQL database
+
+# V. Select a storage mode
 The three different types of storage modes you can choose from:
 - Import: create a local Power BI copy of your datasets from your data source
 - DirectQuery: create a direct connnection to the data source. This method is useful when you do not want to save local copies of your data because your data is huge. With this mothode, your data is always up-to-date. However, its downside is the performance by having to load large amounts of data.
