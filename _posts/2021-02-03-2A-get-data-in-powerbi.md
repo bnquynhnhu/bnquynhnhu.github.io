@@ -81,8 +81,8 @@ Here’s the scenarios where Query Folding does not take place:
 - You write your own source query. When you establish a connection in Power BI to a database
 
 Watch this video "Power BI Tutorial for Beginners: Get Data. Query Editor" to understand more about Query Editor.
-{% include youtube.html content="hw6-DNhgOos" size="5" %}
+[![Power BI Tutorial for Beginners: Get Data. Query Editor]](https://www.youtube.com/watch?v=hw6-DNhgOos)
 
 Reference
-https://blog.pragmaticworks.com/power-bi-checking-query-folding-with-view-native-query
+- https://blog.pragmaticworks.com/power-bi-checking-query-folding-with-view-native-query
 
