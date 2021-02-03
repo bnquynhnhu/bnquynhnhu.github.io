@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Discover Data Analysis
+title: Module 1A: Get started with Microsoft data analytics - Discover Data Analysis
 toc: 1
 categories: [powerbi]
 tags: [PowerBI,DA-100]
