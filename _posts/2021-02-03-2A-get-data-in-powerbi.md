@@ -9,6 +9,8 @@ date: 2021-02-03
 
 ## I. Get data from different data sources:
 
+To connect data, you can just select the Get Data button in the lower-left corner of the home page.
+
 ![](/images/powerbi/get-data.png)
 
 ### 1.	Microsoft AppSource
