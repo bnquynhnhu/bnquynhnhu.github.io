@@ -79,3 +79,5 @@ Here’s the scenarios where Query Folding does not take place:
 
 Watch this video "Power BI Tutorial for Beginners: Get Data. Query Editor" to understand more about Query Editor.
 {% include youtube.html content="hw6-DNhgOos" size="5" %}
+
+{% include youtube.html content="wIsK4kQTrIg" size="5" %}
