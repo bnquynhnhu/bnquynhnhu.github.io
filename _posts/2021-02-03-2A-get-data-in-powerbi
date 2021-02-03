@@ -13,7 +13,7 @@ date: 2021-02-01
 
 -	Microsoft AppSource
   o	Data from services
-    • SaaS services that you already use, e.g. Marketo, Salesforce, Github, GoogleAnalytics
+    • SaaS services that you already use, e.g. Marketo, Salesforce, Github, GoogleAnalytics, SharePoint, OneDrive, Dynamics 365
     •	Growing number of supported SaaS solutions
   o	Data from your organization
     •	Content published by others in your org (organizational content packs)
@@ -24,11 +24,46 @@ date: 2021-02-01
     •	On-premises data sources, such as SQL Server, Oracle, MySQL, etc.
   o	Data from files
     •	Import data from local files as Text, CSV, Excel and Power BI Desktop files.
-    •	OneDrive Business
-    •	OneDrive Personal
-    •	SharePoint-Team Site
+    
+# II. Select a storage mode
+The three different types of storage modes you can choose from:
+- Import
+- DirectQuery
+- Dual (Composite)
 
-# IV. Check your knowledge
+<table>
+<thead>
+  <tr>
+    <th></th>
+    <th>Import mode</th>
+    <th>Direct query</th>
+  </tr>
+  <tr>
+    <td>Size</td>
+    <td>Up to 1GB per dataset </td>
+    <td>Data is on-premise, no PowerBI service limitation</td>
+  </tr>
+  <tr>
+    <td>Data Source</td>
+    <td>Data come from multiple sources</td>
+    <td>Data come from single source</td>
+  </tr>
+  <tr>
+    <td>Performance</td>
+    <td>No noticeable delay since the data model is already cached</td>
+    <td>Slow in query response</td>
+  </tr>
+  <tr>
+    <td>Refresh frequency</td>
+    <td>Data refresh need to be done once in a day or week or month or interval of hours.0</td>
+    <td>Near to real time data processing. Use if the objective is to always have fresh data.</td>
+  </tr>
+  <tr>
+    <td>DAX</td>
+    <td>DAX support</td>
+    <td>Many limitations to DAX</td>
+  </tr>
+</thead>
 
 
 <fieldset class="field-set" markdown="1">
