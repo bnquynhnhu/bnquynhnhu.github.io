@@ -69,7 +69,7 @@ The three different types of storage modes you can choose from:
 # III. Fix performance issues
 Optimize performance in Power Query
 
-1. Query folding 
+## Query folding 
 In my opinion, the explanation in the Microsoft DA-100 learning path is not easy to understand. I found this definition is so much understandable:
 "The idea behind Query Folding is to push the logic that you built into a Power BI query back to the data source server and execute it there in it’s native language instead of doing a client side transform of the data.  Why is this important?  Let me give you an example.  Say you have a 2 billion row SQL Server table you need to connect to in Power BI, but you want to filter to only return the last year of data.  With Query Folding the filter of that data is done on the SQL Server side instead of on the client side. If Query Folding did not take place then that would mean all 2 billion rows would be brought across the network only to then filtered out on the client workstation.  So clearly the ideal situation is that all your queries get folded for the best possible performance, but Query Folding only works in certain scenarios.
 Here’s the scenarios where Query Folding does not take place:
