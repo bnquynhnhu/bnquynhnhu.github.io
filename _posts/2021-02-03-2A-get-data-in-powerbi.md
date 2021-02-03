@@ -128,10 +128,16 @@ There exists some techniques to optimize query performance:
 ### Optimize performance in Power Query
 
 #### Query Folding
-Convert M language to the native language of the source and the transformations happens on the source side instead of on locally on your machine in Power BI.
+**Query Folding**: push the logic that you built into a Power BI query back to the data source server and execute it there in its native language instead of doing a client side transform of the data.  This technique is useful when dealing with huge dataset. For example, instead of loading 2 billions rows of sales data to Power BI to filter only last year of data, with Query Folding, filter of that data is done on SQL Server side.
 
-The idea behind **Query Folding** is to push the logic that you built into a Power BI query back to the data source server and execute it there in it’s native language instead of doing a client side transform of the data.  This technique is useful when dealing with huge dataset. 
-Example: Instead of loading 2 billions rows of sales data to Power BI to filter only last year of data, with Query Folding, filter of that data is done on SQL Server side.
+To increase performance, use native queries. 
+A good guideline to remember is that if you can translate a transformation into a Select SQL statement, which includes operators and clauses such as GROUP BY, SORT BY, WHERE, UNION ALL, and JOIN, you can use query folding.
+
+Native queries are not possible for the following transformations:
+- Adding an index column
+- Merging and appending columns of different tables with two different sources
+- Changing the data type of a column
+- Running complex DAX functions
 
 Here’s the scenarios where Query Folding does not take place:
 - using an unsupported data source
@@ -143,7 +149,7 @@ Here’s the scenarios where Query Folding does not take place:
 
 #### Other techniques to optimize performance  
 - **Process as much data as possible in the original data source**
-- **Use native SQL queries**, *make sure not pulling data from stored procedures or common table expressions (CTEs)*.
+- **Use native SQL queries**, not pulling data from **stored procedures or common table expressions (CTEs)**.
 - **Separate date and time**, if bound together. If any of your tables have columns that combine date and time, make sure that you separate them into distinct columns before importing them into Power BI. 
 
 # IV. Resolve data import errors
