@@ -57,7 +57,8 @@ c) Use statistical technologies to discover relationships and trends that explai
 - Implement the **advanced analytics capabilities into reports and visualizations**
 - Profile, clean, and transform data
 - Is responsible for designing & building scalable & effective data models, manage Power BI assets (reports, dashboards, workspace, and the underlying datasets, etc)
-- Work with Data Engineer and DB Admin
+- Work with Data Engineer and DB Admin.
+- Most of the time, data analyst spend time to prepare and model tasks.
 Note: Data Analyst and Business Analyst could be the single person
 
 ## Data Engineer
