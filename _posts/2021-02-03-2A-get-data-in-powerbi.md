@@ -97,11 +97,11 @@ Watch this video "Power BI Tutorial for Beginners: Get Data. Query Editor" to un
 
 # IV. Resolve data import errors
 Common errors you might have:
-- Query timeout expired 
-- Power BI Query Error: Timeout expired
+- **Query timeout expired**: config timespan 
+- **Power BI Query Error: Timeout expired** = pulled too much data according to your organization’s policies =>  resolve by pulling fewer columns or rows from a single table, avoid using complex queries (group, aggregation, join, subquery, nested query) => implement them in Power BI
 - We couldn't find any data formatted as a table (open the Excel file, select the data set, and then press Ctrl+T, and then reopen the file)
 - Could not find file 
-- Data type errors: specìy 
+- Data type errors: convert column type explicitly by using CAST function in SQL (SELECT CAST(CustomerPostalCode as varchar(10)) FROM Sales.Customers)
 
 Reference
 - https://blog.pragmaticworks.com/power-bi-checking-query-folding-with-view-native-query
