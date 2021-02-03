@@ -67,10 +67,7 @@ The three different types of storage modes you can choose from:
 </table>
 
 # III. Fix performance issues
-Optimize performance in Power Query
-
-## Query folding 
-There exists some techniques to optimize database performance
+There exists some techniques to optimize query performance
 
 ### Query Folding
 Convert M language to the native language of the source and the transformations happens on the source side instead of on locally on your machine in Power BI.
