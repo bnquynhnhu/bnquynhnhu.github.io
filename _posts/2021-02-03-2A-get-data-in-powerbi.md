@@ -85,3 +85,50 @@ Watch this video "Power BI Tutorial for Beginners: Get Data. Query Editor" to un
 {% include youtube.html content="hw6-DNhgOos" size="5" %}
 
 {% include youtube.html content="wIsK4kQTrIg" size="5" %}
+
+Hide/Show
+<ul class="collapsible" data-collapsible="accordion">
+<li>
+<div class="collapsible-header" markdown="1"><i class="material-icons">face</i>
+Title
+</div>
+<div class="collapsible-body" markdown="1">
+Content
+</div>
+</li>
+</ul>
+Notifications
+Info
+
+<p markdown="1" class="thi-tip">
+<i class="material-icons mat-icon">info</i>
+content
+</p>
+Error
+
+<p markdown="1" class="thi-warning">
+<i class="material-icons mat-icon">error</i>
+content
+</p>
+Pull quotes
+<p class="post-more-info" markdown="1">
+The content of extra info of the post.
+</p>
+Summarization box
+<fieldset class="field-set" markdown="1">
+<legend class="leg-title">Title</legend>
+Content
+</fieldset>
+Theorem style
+<div class="thi-box" markdown="1">
+<div class="box-title" markdown="1">
+**Title**
+</div>
+<div class="box-content" markdown="1">
+Content
+</div>
+</div>
+Important boxes
+<div class="p-mark" markdown="1">
+Content
+</div>
