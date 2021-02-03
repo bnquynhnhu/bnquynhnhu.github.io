@@ -76,9 +76,14 @@ After you connect to data source, you have the option to select the **Load** but
 
 # V. Get data from online services
 
+# VI. Get data from Azure Analysis Services
+
 # VII. Select a storage mode
 The three different types of storage modes you can choose from:
-- Import: create a local Power BI copy of your datasets from your data source
+- Import: 
+  * Create a local Power BI copy of your datasets from your data source. 
+  * Default option. 
+  * This will import the data into Power BI on a scheduled interval (manually).
 - DirectQuery: create a direct connnection to the data source. This method is useful when you do not want to save local copies of your data because your data is huge. With this mothode, your data is always up-to-date. However, its downside is the performance by having to load large amounts of data.
 - Dual (Composite): you can identify some data to be directly imported and other data that must be queried.
 
@@ -120,7 +125,9 @@ The three different types of storage modes you can choose from:
 # III. Fix performance issues
 There exists some techniques to optimize query performance:
 
-### Query Folding
+### Optimize performance in Power Query
+
+#### Query Folding
 Convert M language to the native language of the source and the transformations happens on the source side instead of on locally on your machine in Power BI.
 
 The idea behind **Query Folding** is to push the logic that you built into a Power BI query back to the data source server and execute it there in it’s native language instead of doing a client side transform of the data.  This technique is useful when dealing with huge dataset. 
@@ -135,12 +142,12 @@ Watch this video "Power BI Tutorial for Beginners: Get Data. Query Editor" to un
 [![Power BI Tutorial for Beginners: Get Data. Query Editor]](https://www.youtube.com/watch?v=hw6-DNhgOos)
 {% include youtube.html content="wIsK4kQTrIg" size="5" %}
 
-### Query diagnostics 
+#### Query diagnostics 
 - To determine what bottlenecks exist while loading/transforming/refreshing data in Power Query, running SQL statements in Query Editor, etc.
 
-### Other techniques to optimize performance  
-- **Process as much data as possible in the original data source**. Power Query and Power Query Editor allow you to process the data; however, the processing power that is required to complete this task might lower performance in other areas of your reports. Generally, a good practice is to process, as much as possible, in the native data source.
-- **Use native SQL queries**. When using DirectQuery for SQL databases, such as the case for our scenario, *make sure that you are not pulling data from stored procedures or common table expressions (CTEs)*.
+#### Other techniques to optimize performance  
+- **Process as much data as possible in the original data source**
+- **Use native SQL queries**, *make sure not pulling data from stored procedures or common table expressions (CTEs)*.
 - **Separate date and time**, if bound together. If any of your tables have columns that combine date and time, make sure that you separate them into distinct columns before importing them into Power BI. 
 
 # IV. Resolve data import errors
