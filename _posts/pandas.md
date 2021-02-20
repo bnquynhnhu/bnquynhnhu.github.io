@@ -25,9 +25,11 @@ data and cleaning textual data
 > 
 > import seaborn as sns
 >
+>
 > pd.set\_option('display.max\_rows', 500)
 > 
 > pd.set\_option('display.max\_columns', 500)
+>
 > 
 > %matplotlib inline
 
