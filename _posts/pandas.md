@@ -57,16 +57,11 @@ df = pd.read_csv("filename1.csv")
 <p>df.shape</p></td>
 </tr>
 <tr class="even">
-<td><ol start="2" type="1">
-<li><p>Data structure</p></li>
-</ol></td>
+<td rowspan="4"><ol start="2" type="1"><li><p>Data structure</p></li></ol></td>
 <td>Using <strong>df.dtypes</strong> for analyzing for columns/data types</td>
 <td><p>df.dtypes</p></td>
 </tr>
 <tr class="odd">
-<td><ol start="3" type="1">
-<li></li>
-</ol></td>
 <td><ol type="a">
 <li><p>Drop unnecessary columns</p></li>
 </ol></td>
@@ -75,9 +70,6 @@ df = pd.read_csv("filename1.csv")
 <p>df.drop(['col1', 'col2'], axis=1, inplace=True)</p></td>
 </tr>
 <tr class="even">
-<td><ol start="4" type="1">
-<li></li>
-</ol></td>
 <td><ol start="2" type="a">
 <li><p>Rename columns</p></li>
 </ol></td>
@@ -86,9 +78,6 @@ df = pd.read_csv("filename1.csv")
 <p>inplace=True)</p></td>
 </tr>
 <tr class="odd">
-<td><ol start="5" type="1">
-<li></li>
-</ol></td>
 <td><ol start="3" type="a">
 <li><p>Change data type of a column</p></li>
 </ol></td>
