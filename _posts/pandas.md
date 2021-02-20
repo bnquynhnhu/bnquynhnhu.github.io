@@ -165,7 +165,8 @@ df = pd.read_csv("filename1.csv")
 <td><p>%matplotlib inline</p>
 <p>df.hist(bins=50, figsize=(20,15))</p>
 <p>plt.savefig(&quot;attribute_histogram_plots&quot;)</p>
-<p>plt.show()</p></td>
+<p>plt.show()</p>
+<img src="images/graph_data_preparation.png" style="width:3.21875in;height:0.82292in" /></td>
 </tr>
 <tr class="odd">
 <td></td>
