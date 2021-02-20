@@ -18,11 +18,15 @@ data and cleaning textual data
 > \# Importing necessary libraries
 > 
 > import pandas as pd
+> 
 > import numpy as np
+> 
 > import matplotlib.pyplot as plt
+> 
 > import seaborn as sns
 >
 > pd.set\_option('display.max\_rows', 500)
+> 
 > pd.set\_option('display.max\_columns', 500)
 > 
 > %matplotlib inline
