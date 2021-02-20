@@ -13,25 +13,21 @@ data and cleaning textual data
 3.  **Matplotlib & Seaborn:** They are plotting and graphing libraries
     that we will use to visualize data in an intuitive way.
 
-> \# Importing necessary libraries
-> 
-> import pandas as pd
-> 
-> import numpy as np
-> 
-> import matplotlib.pyplot as plt
-> 
-> import seaborn as sns
-> 
-> pd.set\_option('display.max\_rows', 500)
-> 
-> pd.set\_option('display.max\_columns', 500)
-> 
-> %matplotlib inline
+# Importing necessary libraries
+ 
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+ 
+pd.set_option('display.max_rows', 500)
+pd.set_option('display.max_columns', 500)
+
+%matplotlib inline
 
 1.  Loading the data
 
-> df = pd.read\_csv("filename1.csv")
+df = pd.read_csv("filename1.csv")
 
 <table>
 <thead>
@@ -57,8 +53,7 @@ data and cleaning textual data
 <li><p>Data structure</p></li>
 </ol></td>
 <td>Using <strong>df.dtypes</strong> for analyzing for columns/data types</td>
-<td><p>df. dtypes</p>
-<p><img src="media/image1.png" style="width:3.21875in;height:0.82292in" /></p></td>
+<td><p>df.dtypes</p></td>
 </tr>
 <tr class="odd">
 <td><ol start="3" type="1">
