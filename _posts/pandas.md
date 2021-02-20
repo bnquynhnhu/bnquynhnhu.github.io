@@ -166,7 +166,7 @@ df = pd.read_csv("filename1.csv")
 <p>df.hist(bins=50, figsize=(20,15))</p>
 <p>plt.savefig(&quot;attribute_histogram_plots&quot;)</p>
 <p>plt.show()</p>
-<img src="images/graph_data_preparation.png" style="width:3.21875in;height:0.82292in" /></td>
+<img src="graph_data_preparation.png"/></td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -180,8 +180,8 @@ df = pd.read_csv("filename1.csv")
 Filter
 
 <table>
-<thead>
-<tr class="header">
+<tbody>
+<tr class="even">
 <th><ol start="3" type="1">
 <li><p>String comparaison</p></li>
 </ol></th>
@@ -192,8 +192,6 @@ Filter
 <p># With AND/OR</p>
 <p>df.query(&quot;(col1=='value1') or (col2=='val2')&quot;)</p></th>
 </tr>
-</thead>
-<tbody>
 <tr class="odd">
 <td><ol type="1">
 <li><p>String comparaison</p></li>
