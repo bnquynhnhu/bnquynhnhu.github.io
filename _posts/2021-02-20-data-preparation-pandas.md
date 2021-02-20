@@ -1,3 +1,11 @@
+---
+layout: post
+title: Data Preparation in pandas
+toc: 1
+categories: [pandas]
+tags: [Data Preparation, Data Wrangling, pandas]
+date: 2021-02-20
+---
 ### Importing Libraries 
 
 Let’s start by importing several libraries we’ll need for exploring our
